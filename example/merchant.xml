@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+
+<merchant>
+	<object money="20">Sword</object>
+	<object money="100">Baltazar Amulet</object>
+	<object money="120">Bow</object>
+	<object money="500">Water Globe</object>
+</merchant>

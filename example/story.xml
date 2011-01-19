@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+
+<!-- special links
+
+-1 = The End
+-2 = Game Over
+-3 = Merchant
+
+-->
+
+<story>
+	<S1>
+		<text>Tu, $user, entri in questa casa.</text>
+
+		<A link="1">Scappi.</A>
+		<B link="2">Prosegui.</B>
+		<C link="3">Esci.</C>
+	</S1>
+
+	<S2>
+		<text>Sali le scale.</text>
+
+		<A link="1" life="-10">Muori.</A>
+	</S2>
+
+	<S3>
+		<text>Scendi le scale.</text>
+
+		<A link="1" gain="Sword">Prendi la spada.</A>
+		<B link="2" require="Knife">Infila il coltello nella fessura.</B>
+		<C link="-1">Sei riuscito a risolvere l'enigma.</C>
+		<D link="3" life="+30">Usa pozione rinvigorente.</D>
+		<E link="3" money="-10">Perdi al banco.</E>
+		<F link="2" money="+20">Vinci al banco.</F>
+		<G link="-3">Vai dal mercante.</G> <!-- go to merchant -->
+	</S3>
+</story>

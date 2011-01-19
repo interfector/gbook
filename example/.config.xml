@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<configs>
+	<name>nex</name>
+	<money>792</money>
+	<life>990</life>
+	<object>Baltazar Amulet</object>
+	<object>Water Globe</object>
+	<object>Sword</object>
+	<story>2</story>
+</configs>
